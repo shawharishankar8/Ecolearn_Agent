@@ -25,7 +25,49 @@ EcoLearn Tutor is a multi-agent AI system that delivers **personalized environme
 - **Adaptive Learning Paths**: Personalized curriculum based on assessment
 - **Continuous Progress Tracking**: Real-time learning analytics
 
+# Setup Guide
 
+## Step 1: Get Gemini API Key
+1. Visit [Google AI Studio](https://aistudio.google.com/)
+2. Create account or sign in
+3. Generate API key
+4. Copy the API key
+
+## Step 2: Project Setup
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ecolearn-tutor
+cd ecolearn-tutor
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+```
+Edit the .env file:
+env
+```bash
+GEMINI_API_KEY=your_actual_api_key_here
+
+```
+Git bash 
+```bash
+cd src
+python main.py
+```
+
+
+## Screenshots
 <img width="1904" height="968" alt="image" src="https://github.com/user-attachments/assets/6217cce8-9224-4f47-bf45-58522120911d" />
 
 <img width="1909" height="996" alt="image" src="https://github.com/user-attachments/assets/ddb28f4b-63bc-4614-b8f6-c0cbec459519" />
