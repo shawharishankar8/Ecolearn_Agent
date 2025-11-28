@@ -25,4 +25,7 @@ EcoLearn Tutor is a multi-agent AI system that delivers **personalized environme
 - **Adaptive Learning Paths**: Personalized curriculum based on assessment
 - **Continuous Progress Tracking**: Real-time learning analytics
 
-## 🏗️ System Architecture
+
+<img width="1904" height="968" alt="image" src="https://github.com/user-attachments/assets/6217cce8-9224-4f47-bf45-58522120911d" />
+
+<img width="1909" height="996" alt="image" src="https://github.com/user-attachments/assets/ddb28f4b-63bc-4614-b8f6-c0cbec459519" />
